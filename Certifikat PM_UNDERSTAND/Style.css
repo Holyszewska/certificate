@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+.wrap {
+  width: 210mm;
+  height: 148mm;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.card {
+  margin: 2mm;
+  width: 100%;
+  height: calc(100% - 5mm);
+  border: 1mm solid rgb(26, 25, 25);
+  background-image: url("kbc.png");
+  background-position: center;
+  background-size: 95% 95%;
+  background-repeat: no-repeat;
+}
+
+.card_below {
+  position: absolute;
+  width: 210mm;
+  height: 148mm;
+  justify-content: center;
+  display: flex;
+}
+
+.stamp {
+  width: 0.5cm;
+  height: 0.5cm;
+}
+
+.logo_right_bottom {
+  display: block;
+  position: absolute;
+  width: 11cm;
+  bottom: -5.3cm;
+  right: -5.3cm;
+}
+
+.PM {
+  display: block;
+  position: absolute;
+  width: 1.5cm;
+  top: 0.5cm;
+  right: 0.5cm;
+}
+
+.logo_left_top {
+  display: block;
+  position: absolute;
+  width: 11cm;
+  top: -5.3cm;
+  left: -5.3cm;
+}
+
+.GS {
+  display: block;
+  position: absolute;
+  width: 1.5cm;
+  bottom: 0.5cm;
+  left: 0.5cm;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 47px;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: -5px;
+}
+
+h5 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Vollkorn", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 15mm;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 16px;
+}
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 30mm;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: -20mm;
+}
+
+.border {
+  width: 210mm;
+  height: 148.3mm;
+  display: flex;
+  position: relative;
+  border: 0.3mm solid rgba(129, 125, 125, 0.623);
+}
